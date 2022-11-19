@@ -4,8 +4,8 @@ from sendgrid.helpers.mail import *
 
 
 def send_email():
-    from_email = Email('karthitmpacc@gmail.com')
-    to_email = To('vaishnavanambiv50@gmail.com')
+    from_email = Email('vaishnavanambiv50@gmail.com')
+    to_email = To('karthitmpacc@gmail.com')
     subject = 'SendGrid is Good'
     content = Content("text/plain", "and feasible to send msg anywhere, even with Python")
     mail = Mail(from_email, to_email, subject, content)
